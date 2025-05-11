@@ -1,0 +1,52 @@
+.edu-card{
+  border-radius: 12px;
+  background-color: #BEEEFA;
+  width: 90%;
+}
+.r6-col-span-1{
+    grid-row: 1;
+    grid-column: 2;
+    background-color: #8CC4E2;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    align-items: center;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "PoppinsRegular";
+  }
+
+  @media (max-width: 592px) {
+    .edu-card{
+      border-radius: 12px;
+      background-color: #BEEEFA;
+      width: 90%;
+    }
+    .r6-col-span-1{
+        grid-row: 2;
+        grid-column: 2;
+        background-color: #8CC4E2;
+        border-radius: 12px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
+        align-items: center;
+        text-align: center;
+        font-size: 12pt;
+        font-weight: bold;
+        font-family: "PoppinsRegular";
+      }
+  }
+
+  @media (min-width: 592px) and (max-width: 800px) {
+    .r6-col-span-1{
+      grid-row: 1;
+      grid-column: 2 /span 1;
+    }
+  }

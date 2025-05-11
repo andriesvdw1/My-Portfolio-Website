@@ -1,0 +1,40 @@
+.time-zone-heading-r4-col-span-3{
+    grid-row: 1;
+    grid-column: span 3;
+    font-size: 22pt;
+    color: white;
+    text-align: center;
+    font-family: "PoppinsRegular";
+    padding-top: 20px;
+  }
+
+  @media (max-width: 592px) {
+    .time-zone-heading-r4-col-span-3{
+      grid-row: 1;
+      grid-column: 2 / span 1;
+      font-size: 12pt;
+      color: white;
+      /* text-align: left; */
+      font-family: "PoppinsRegular";
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 592px) and (max-width: 800px) {
+    .time-zone-heading-r4-col-span-3{
+      grid-row: 1;
+      grid-column: 1 / span 4;
+      font-size: 13pt;
+      color: white;
+      font-family: "PoppinsRegular";
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 800px) and (max-width: 888px) {
+    .time-zone-heading-r4-col-span-3{
+    font-size: 16pt;
+    }
+  }

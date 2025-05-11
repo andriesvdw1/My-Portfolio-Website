@@ -1,0 +1,43 @@
+.header {
+  display: grid;
+  grid-template-rows: 356px 251px;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 592px) {
+  .header {
+    display: grid;
+    grid-template-rows: 356px 251px 200px 250px 270px;
+    grid-template-columns: 1fr 90% 1fr;
+    gap: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-areas: 
+    ". . ."
+    ". . ."
+    ". . ."
+    ". . ."
+    ". . .";
+    
+    
+  }
+}
+
+@media (min-width: 592px) and (max-width: 800px) {
+    .header {
+      display: grid;
+      grid-template-rows: 356px 311px 280px;
+      grid-template-columns: 50% 50%;
+      gap: 5px;
+      margin-left: 5%;
+      margin-right: 5%;
+      grid-template-areas: 
+      ". ."
+      ". ."
+      ". .";
+      
+      
+    }
+  }

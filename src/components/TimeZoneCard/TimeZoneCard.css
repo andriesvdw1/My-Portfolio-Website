@@ -1,0 +1,44 @@
+.time-zone-card {
+  display: block;
+  width: 1fr;
+  height: 90%;
+  border-radius: 12px;
+  padding: 16px;
+
+  text-align: center;
+  background-color: #beeefa;
+  font-size: 16pt;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.card-time-content {
+  padding-top: 20px;
+  font-family: "PoppinsRegular";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tzone-text {
+  color: #1e5f88;
+}
+
+.tzone-day {
+  color: #1e5f88;
+}
+
+.tzone-time {
+  color: #1e5f88;
+}
+.time-zone-r5-col-span-1 {
+  grid-row: 1;
+  grid-column: span 1;
+  background-color: #beeefa;
+  border-radius: 12px;
+}
+
+.loading-inner, .loading-outer{
+  background-color: #beeefa;
+}
+

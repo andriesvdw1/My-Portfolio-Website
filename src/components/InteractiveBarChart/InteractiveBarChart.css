@@ -1,0 +1,21 @@
+h1{
+    font-size: 24pt;
+    color: white;
+    text-align: center;
+    font-family: 'PoppinsRegular';
+}
+
+button{
+    font-family: 'PoppinsRegular';
+    font-size: 16pt;
+}
+
+@media (max-width: 592px) {
+    .bar-column{display: none;}
+    h1{display: none;}
+}
+
+@media (min-width: 592px) and (max-width: 800px) {
+    .bar-column{display: none;}
+    h1{display: none;}
+}

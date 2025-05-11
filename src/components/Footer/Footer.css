@@ -1,0 +1,25 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 364px 216px;
+    gap: 10px;
+}
+
+@media (max-width: 592px) {
+.footer{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: minmax(364px,400px) 400px;
+    gap: 10px;
+    }
+ 
+}
+
+@media (min-width: 592px) and (max-width: 800px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 555px 400px 400px;
+        gap: 10px;
+        }
+    }

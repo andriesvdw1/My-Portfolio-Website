@@ -1,0 +1,68 @@
+/* Only display the horizontal menu on the large screen width, 
+hide it on the mobile size and smaller screen width */
+@media (max-width: 592px) {
+    .menu-horizontal-li,.menu-horizontal-a,.menu-horizontal{
+        display: none;
+    }
+}
+
+@media (min-width: 592px) and (max-width: 800px) {
+     .menu-horizontal-li,.menu-horizontal-a,.menu-horizontal{
+        display: none;
+    }
+}
+
+.menu-horizontal-li{
+    list-style: none;
+    
+}
+.menu-horizontal-a{
+    font-size: 12pt;
+    width: 100px;
+}
+.menu-horizontal {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #8CC4E2; 
+  border-radius: 12px;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-horizontal.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.menu-horizontal-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 0;
+  flex-direction: row;    
+}
+
+
+.menu-horizontal-li {
+  margin: 0 15px;
+}
+
+.menu-horizontal-a {
+  text-decoration: none;
+  color: #BEEEFA;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.menu-horizontal-a:hover {
+  color: #fff;
+}
+
+.menu-horizontal-a.active {
+  color: #fff; 
+}

@@ -1,0 +1,74 @@
+.icon{
+  width: 40px;
+  height: auto;
+  margin-right: 12px;
+}
+
+.exp{
+    grid-row: 1;
+    grid-column: 1;
+    background-color: #8CC4E2;
+    display: flex;
+    border-radius: 12px;
+    
+  }
+
+  .inner-container-exp {
+    background-color: #beeefa;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;    
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    font-family: "PoppinsRegular";
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  .exp-heading{
+    text-align: center;
+  }
+  @media (min-width: 592px) and (max-width: 800px) {
+    .exp{
+      grid-row: 1;
+      grid-column: 1 /span 1;
+      background-color: #8CC4E2;
+      display: flex;
+      border-radius: 12px;
+    }
+    .inner-container-exp {
+      background-color: #beeefa;
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;    
+      width: 90%;
+      height: 90%;
+      margin: 5%;
+      font-family: "PoppinsRegular";
+      font-weight: bold;
+      padding: 5px;
+    }
+    .exp-heading{
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 592px) {
+    .exp{
+      grid-row: 1;
+      grid-column: 2 / span 1;
+      background-color: #8CC4E2;
+      display: flex;
+      border-radius: 12px;      
+    }
+    .inner-container-exp {
+      font-size: 12pt;
+      font-weight: bold;
+    }
+    .exp-heading{
+      text-align: center;
+    }
+  }
