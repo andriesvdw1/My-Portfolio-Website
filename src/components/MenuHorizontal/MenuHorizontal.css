@@ -64,5 +64,7 @@ hide it on the mobile size and smaller screen width */
 }
 
 .menu-horizontal-a.active {
-  color: #fff; 
+  color: black; /* White text color*/
+  text-decoration: underline;
+  
 }
